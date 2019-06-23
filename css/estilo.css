@@ -1,0 +1,85 @@
+
+html, body, .home{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background: url(/img/fundo.jpg),
+                linear-gradient(50deg, #050505, #6c5ce7);
+   background-attachment: fixed;
+}
+
+.capa{
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    h1{font-size: 3em;}
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+
+hello{
+    font-weight: bold;
+}
+
+
+.project-tile div h4{    
+    text-align: center;  
+}
+.project-tile div, h4, p{
+ text-align: justify;
+}
+.project-tile{
+    background-color:#ecf0f1;
+}
+
+i{
+    font-size: 60px;
+}
+
+/* footer */
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+
+nav li:hover{
+  /*border: 2px solid red;*/
+  border-top: 1px solid black; 
+  
+}
+.caixa{
+	padding:  60px 0;
+  border-bottom: 2px solid green;
+  background-color: white;
+}
+.caixa h1{
+  text-align: center;
+}
+
+nav.small {
+  padding: 5px;
+  font-size: 80%;
+}
